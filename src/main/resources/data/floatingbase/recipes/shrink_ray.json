@@ -1,0 +1,34 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "floatingbase"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "group": "floatingbase:shrink_ray",
+    "pattern": [
+        " L ",
+        "lRl",
+        " f "
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:lantern"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "l": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "f": {
+            "item": "floatingbase:fuel"
+        }
+    },
+    "result": {
+        "item": "floatingbase:shrink_ray",
+        "count": 1
+    }
+}
+

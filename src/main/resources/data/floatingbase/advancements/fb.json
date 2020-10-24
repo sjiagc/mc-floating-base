@@ -1,0 +1,45 @@
+{
+    "display": {
+        "background": "floatingbase:textures/background/advancement.png",
+        "icon": {
+            "item": "floatingbase:fb"
+        },
+        "title": {
+            "translate": "advancements.floatingbase.fb.title"
+        },
+        "description": {
+            "translate": "advancements.floatingbase.fb.descr"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "floatingbase": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_block",
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "item": "minecraft:lapis_block",
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10,
+        "recipes": [
+            "floatingbase:fb"
+        ]
+    }
+}

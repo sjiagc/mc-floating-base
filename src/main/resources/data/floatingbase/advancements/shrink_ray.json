@@ -1,0 +1,40 @@
+{
+    "parent": "floatingbase:fuel",
+    "display": {
+        "background": "floatingbase:textures/background/advancement.png",
+        "icon": {
+            "item": "floatingbase:shrink_ray"
+        },
+        "title": {
+            "translate": "advancements.floatingbase.shrink_ray.title"
+        },
+        "description": {
+            "translate": "advancements.floatingbase.shrink_ray.descr"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "floatingbase": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "floatingbase:fuel",
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10,
+        "recipes": [
+            "floatingbase:shrink_ray"
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "advancements.floatingbase.fb.title": "Floating base",
+  "advancements.floatingbase.fb.descr": "Make a floating base",
+  "advancements.floatingbase.fuel.title": "Fuel for floating base",
+  "advancements.floatingbase.fuel.descr": "Produce fuel for floating base",
+  "advancements.floatingbase.shrink_ray.title": "Light to shrink floating base",
+  "advancements.floatingbase.shrink_ray.descr": "Create light to break floating base to item",
+  "item.floatingbase.fb": "Floating base",
+  "item.floatingbase.fuel": "Floating base fuel",
+  "item.floatingbase.shrink_ray": "Shrink ray",
+  "ui.floatingbase.fb_chest": "On board chest"
+}
