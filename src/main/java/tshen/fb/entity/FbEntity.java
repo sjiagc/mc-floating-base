@@ -140,7 +140,7 @@ public class FbEntity extends Entity {
         this.doBlockCollisions();
         List<Entity> list = this.world.getEntitiesInAABBexcluding(this, this.getBoundingBox().grow((double)0.2F, (double)-0.01F, (double)0.2F), EntityPredicates.pushableBy(this));
         if (!list.isEmpty()) {
-            boolean flag = !this.world.isRemote && !(this.getControllingPassenger() instanceof PlayerEntity);
+            boolean flag = !this.world.isRemote;
 
             for(int j = 0; j < list.size(); ++j) {
                 Entity entity = list.get(j);
